@@ -6,7 +6,6 @@ Analysis of tile requests from parsed Fastly logs.
 This project was developed as the final project for my Bachelor's degree in Telematics Engineering at UC3M through 2015.
 
 
-
 ## Fastly log example
 
 ```
@@ -17,6 +16,12 @@ This project was developed as the final project for my Bachelor's degree in Tele
 ...
 ```
 
+## Output map
+The `draw_layergroup` function allows to generate an image that will mark the requested tiles in the quadtree (according to the logs) over a given basemap for a specific map (identified by its layergroup ID).
+
+As an example, check `tmpmap_spM6Ib.png`: 
+
+![](tmpmap_spM6Ib.png)
 
 ## Attributions
 * Basemap sample image: © [OpenStreetMap](http://www.openstreetmap.org/copyright) contributors, © [CARTO](https://carto.com/attributions).
