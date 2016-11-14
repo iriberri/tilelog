@@ -16,6 +16,9 @@ This project was developed as the final project for my Bachelor's degree in Tele
 ...
 ```
 
+## Map stats
+The `interactive.py` script includes several functions to retrieve map stats once the log has been parsed. You can aggregate events by source IP address, get stats for the different zoom level requests or get the most requested tiles (for the whole tiles dataset or for a given map).
+
 ## Output map
 The `draw_layergroup` function allows to generate an image that will mark the requested tiles in the quadtree (according to the logs) over a given basemap for a specific map (identified by its layergroup ID).
 
