@@ -1,7 +1,7 @@
 # Tilelog
 
 ## Introduction
-Analysis of tile requests from parsed Fastly logs.
+Analysis of map tile requests from parsed Fastly logs.
 
 This project was developed as the final project for my Bachelor's degree in Telematics Engineering at UC3M through 2015.
 
